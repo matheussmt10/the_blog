@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+header {
+    padding-top: 30px;
+    padding-left: 370px;
+    padding-right: 370px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #290742;
+    height: 128px;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+ul {
+    display: flex;
+
+}
+
+.botao_menu_header {
+    padding: 15px;
+    color: aliceblue;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+}
+
+.hyperlink_botao_menu_header {
+    text-decoration: none;
+}
+
+
+.img_logo_header {
+    width: 150px;
+    height: 50px;
+    
+}
+
+.divBusca {
+    
+    display: flex;
+    width: 300px;
+    height: 44px ;
+    
+}
+
+
+.txtBusca {
+    
+    padding-left: 30px;
+    width: 230px;
+    height: 44px;
+    border: none;
+    background-color: #170027;
+    border-radius: 4px 0px 0px 4px;
+    border-color: #170027;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    
+    
+}
+
+.botao_buscar {
+    
+    width: 70px;
+    height: 44px ;
+    background-color: #9E6DC2;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.btnBusca_img {
+    align-items: center;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.bloco_1 {
+    padding-top: 10px;
+    height: 400px;
+    background-color: #290742;
+    padding-left: 320px;
+    padding-right: 320px;
+    border-bottom: 5px solid #4fff4b;
+}
+.conteudo_inicial {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.img_conteudo_inicial {
+    width: 570px;
+    height: 346px;
+    
+}
+
+.titulo_inicial {
+    color: #9E6DC2;
+    font-size: 36px;
+    line-height: 54px;
+    width: 500px;
+    
+}
+
+.texto_inicial {
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 480px;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.botao_veja_mais {
+    background: none;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0;
+    padding-top: 10px;
+    align-items: center; 
+    display: flex;
+    
+}
+
+.img_veja_mais {
+    padding-left: 10px;
+}
+
+.hyperlink_botao_veja_mais {
+    text-decoration: none;
+    color: #9E6DC2;
+    
+}
+
+.conteudo_resumo_blog {
+    display: flex;
+
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+
+
+.conteudo_destaque {
+    margin: 60px 130px 0 156px;
+
+}
+
+
+
+
+
+.data_artigo_blog {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.data_artigo_blog {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+
+.titulo_artigo_blog {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #290742;
+    padding-bottom: 16px;
+}
+
+.texto_artigo_blog {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    /* or 150% */
+
+
+    color: #000000;
+}
+
+
+.conteudo_lateral {
+    margin-left: 0px;
+   
+}
+
+.caixa_texto {
+    width: 400px;
+    
+}
+
+.caixa_texto_destaque {
+    width: 560px;
+}
+
+
+.conteudo_menor {
+    display: flex;
+    justify-content: space-around;
+    
+    padding-left: 330px;
+    padding-right: 330px;
+    padding-top: 74px;
+    padding-bottom: 40px;
+}
+
+
+
+.texto_menor {
+    width: 370px;
+}
