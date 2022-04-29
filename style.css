@@ -38,14 +38,18 @@ ul {
     
 }
 
+.botao_menu_header:hover {
+    color: #4fff4b;
+}
+
 .hyperlink_botao_menu_header {
     text-decoration: none;
 }
 
-
 .img_logo_header {
     width: 150px;
     height: 50px;
+    cursor: pointer;
     
 }
 
@@ -90,6 +94,8 @@ ul {
     border: none;
     border-radius: 0px 4px 4px 0px;
 }
+
+
 
 .btnBusca_img {
     align-items: center;
@@ -157,6 +163,7 @@ ul {
 
 .img_veja_mais {
     padding-left: 10px;
+    cursor: pointer;
 }
 
 .hyperlink_botao_veja_mais {
@@ -210,6 +217,15 @@ ul {
     line-height: 36px;
     color: #290742;
     padding-bottom: 16px;
+    cursor: pointer;
+}
+
+.titulo_artigo_blog:hover {
+    color: #4fff4b;
+}
+
+.img_artigo_blog, .texto_artigo_blog, .data_artigo_blog {
+    cursor: pointer;
 }
 
 .texto_artigo_blog {
